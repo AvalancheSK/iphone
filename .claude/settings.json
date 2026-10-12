@@ -1,0 +1,16 @@
+{
+  "enabledMcpjsonServers": ["mobile-mcp"],
+  "permissions": {
+    "allow": [
+      "mcp__mobile-mcp__mobile_list_available_devices",
+      "mcp__mobile-mcp__mobile_take_screenshot",
+      "mcp__mobile-mcp__mobile_list_elements_on_screen",
+      "mcp__mobile-mcp__mobile_get_screen_size",
+      "mcp__mobile-mcp__mobile_get_orientation",
+      "mcp__mobile-mcp__mobile_get_foreground_app",
+      "mcp__mobile-mcp__mobile_list_apps",
+      "Bash(./scripts/status.sh)",
+      "Bash(./scripts/start.sh --no-open)"
+    ]
+  }
+}
